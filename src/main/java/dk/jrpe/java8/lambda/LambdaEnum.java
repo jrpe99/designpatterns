@@ -18,7 +18,7 @@ public enum LambdaEnum {
     
     private Predicate<Integer> p;
     
-    LambdaEnum(Predicate<Integer> p) {
+    LambdaEnum(final Predicate<Integer> p) {
         this.p = p;
     }
     
